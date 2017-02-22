@@ -13,7 +13,7 @@ To use this theme, just extract the archive and copy the bricabrac theme folder 
 
 ## Live demo
 
-You can see a live demo of this theme on my personal web-log : [bricabraque.github.com](https://bricabraque.github.com).
+You can see a live demo of this theme on my personal web-log : [bricabraque.github.com](https://bricabraque.github.io).
 
 ## Screenshots
 
