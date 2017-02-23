@@ -13,20 +13,4 @@ To use this theme, just extract the archive and copy the bricabrac theme folder 
 
 ## Live demo
 
-You can see a live demo of this theme on my personal web-log : [bricabraque.github.com](https://bricabraque.github.io).
-
-## Screenshots
-
-![Home page](index.png)
-
----
-
-![Article](article.png)
-
----
-
-![Category list](categories.png)
-
----
-
-![Archive](archive.png)
+You can see a live demo of this theme on my personal web-log : [bricabraque.grainedutopie.eu](https://bricabrac.grainedutopie.eu).
