@@ -12,11 +12,11 @@
 </header>
 <article>
 {{ article.summary }}
-<p><a href="{{ SITEURL }}/{{ article.url }}" id="page-title"><u>lire la suite</u></a></p>
 </article>
+<p><a href="{{ SITEURL }}/{{ article.url }}" id="page-title"><u>{{ gettext('lire la suite') }}</u></a></p>
             {% if loop.length > 1 %}
 <section id="article-list">
-<h2>Tous les articles</h2>
+<h2>{{ gettext('Tous les articles') }}</h2>
 <ol>
             {% endif %}
         {# other items #}
@@ -27,6 +27,6 @@
     </ol>
     </section><!-- #article-list -->
 {% else %}
-    No posts found.
+    {{ gettext('Aucun article') }}.
 {% endif %}
 {% endblock content %}
