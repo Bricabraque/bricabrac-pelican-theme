@@ -19,10 +19,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: templates/archives.html:6 templates/base.html:34
-msgid "archives"
-msgstr "archive"
-
 #: templates/base.html:36 templates/categories.html:6
 msgid "catégories"
 msgstr "categories"
@@ -38,4 +34,3 @@ msgstr "All posts"
 #: templates/index.html:30
 msgid "Aucun article"
 msgstr "No post"
-

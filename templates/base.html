@@ -32,14 +32,13 @@
 <ul>
 {% if extra_siteurls %}
 {% for lang, url in extra_siteurls.items() %}
-<li><a href="{{ url }}/">{{ lang }}</a></li>
+<li><a href="{{ url }}/">{{ lang | lookup_lang_name }}</a></li>
 {% endfor %}
 {% endif %}
 <!--<li><a href="https://blog.getpelican.com/">Pelican</a> & <a href="https://github.com/Bricabraque/bricabrac-pelican-theme">bricabrac</a></li>-->
 {% for page in pages %}
-<li> :: <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>{% if not loop.last %}{% endif %}</li>
+<li>:: <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>{% if not loop.last %}{% endif %}</li>
 {% endfor %}
-<li> :: <a href="{{ SITEURL }}/archives.html">{{ gettext('archives') }}</a></li>
 {% if categories|length > 1 %}
 <li> :: <a href="{{ SITEURL }}/categories.html">{{ gettext('catégories') }}</a></li>
 {% endif %}
